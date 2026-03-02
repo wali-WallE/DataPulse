@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataPulse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="brand">
+            <span class="brand-icon">⚡</span>
+            <span class="brand-name">DataPulse</span>
+        </div>
+
+        <nav class="nav">
+            <button class="nav-btn active" data-tab="home">Home</button>
+            <button class="nav-btn" data-tab="weather">Weather</button>
+            <button class="nav-btn" data-tab="population">Population</button>
+            <button class="nav-btn" data-tab="geography">Geography</button>
+            <button class="nav-btn" data-tab="economy">Economy</button>
+        </nav>
+    </aside>
+    <main>
+        <header>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <input type="text" placeholder="Search..." class="search-bar" id="search">
+            <div class="filters">
+
+                <select id="export-select" class="filter-item">
+                    <option value="export" disabled selected>Export</option>
+                    <option value="pdf" class="option-val">Export as PDF</option>
+                    <option value="csv" class="option-val">Export as CSV</option>
+                    <option value="json" class="option-val">Export as JSON</option>
+                </select>
+            </div>
+        </header>
