@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --teal: #0d9488;
+    --teal-bright: #14d8c4;
+    --teal-dim: #0a7a70;
+    --dark: #0b1120;
+    --dark-2: #111827;
+    --dark-3: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-muted: #94a3b8;
+    --accent: #f59e0b;
+    --bg: #f0f4f8;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    background-color: var(--bg);
+    min-height: 100vh;
+}
