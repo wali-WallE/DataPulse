@@ -173,3 +173,38 @@ header {
     border-color: var(--teal);
     outline: none;
 }
+
+.hero-section {
+    background: linear-gradient(135deg, var(--dark) 0%, var(--dark-3) 60%, #0d3d38 100%);
+    padding: 2rem 2rem 1.75rem;
+    margin: 1.25rem 1.25rem 0.5rem;
+    border-radius: 1.25rem;
+    color: #ffffff;
+    animation: fadeIn 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    background: radial-gradient(circle, rgba(13, 148, 136, 0.25) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 30%;
+    width: 160px;
+    height: 160px;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
