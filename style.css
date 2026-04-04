@@ -227,3 +227,24 @@ header {
     position: relative;
     z-index: 1;
 }
+
+.stat {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    padding: 0.85rem 1rem;
+    transition: background 0.2s ease;
+}
+
+.stat:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.stat-title {
+    font-size: 0.65rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: var(--teal-bright);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
