@@ -248,3 +248,11 @@ header {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+.stat-value {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+}
