@@ -316,3 +316,32 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.8px;
 }
+
+.card-data {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.card-value {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--dark-2);
+    line-height: 1.2;
+}
+
+.card-change {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--teal);
+}
+
+.card:nth-child(2) .card-change {
+    color: var(--accent);
+}
+
+.card:nth-child(3) .card-change {
+    color: #6366f1;
+}
