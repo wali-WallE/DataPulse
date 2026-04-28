@@ -345,3 +345,25 @@ header {
 .card:nth-child(3) .card-change {
     color: #6366f1;
 }
+
+.chart-section {
+    padding: 0 1.25rem 1.25rem;
+}
+
+.chart-container {
+    background: linear-gradient(135deg, var(--dark) 0%, var(--dark-3) 100%);
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.04);
+    min-height: 240px;
+    animation: fadeIn 0.4s ease;
+}
+
+.chart-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 1.25rem 0;
+    letter-spacing: -0.2px;
+    color: var(--text-primary);
+}
