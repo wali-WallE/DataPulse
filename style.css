@@ -388,3 +388,19 @@ header {
     z-index: 1000;
     transition: opacity 0.3s ease;
 }
+
+.toast.hidden {
+    display: none;
+}
+
+.toast.error {
+    border-left: 4px solid #ef4444;
+}
+
+.toast.success {
+    border-left: 4px solid var(--teal);
+}
+
+.toast.info {
+    border-left: 4px solid var(--accent);
+}
