@@ -416,3 +416,21 @@ header {
         transform: translateY(0);
     }
 }
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+}
+
+.hamburger span {
+    width: 24px;
+    height: 2px;
+    background-color: var(--dark-2);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
