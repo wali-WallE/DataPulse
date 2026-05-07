@@ -434,3 +434,16 @@ header {
     border-radius: 2px;
     transition: all 0.3s ease;
 }
+
+.overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    backdrop-filter: blur(2px);
+}
+
+.overlay.active {
+    display: block;
+}
