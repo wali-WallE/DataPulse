@@ -447,3 +447,21 @@ header {
 .overlay.active {
     display: block;
 }
+
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 220px;
+    }
+
+    .hero-stats {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .search-bar {
+        width: 200px;
+    }
+}
